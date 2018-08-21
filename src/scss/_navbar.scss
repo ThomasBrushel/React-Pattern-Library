@@ -1,0 +1,11 @@
+.nav {
+  &.nav-grey {
+    background: grey;
+  }
+  &.nav-black {
+    background: black;
+    ul li a {
+      color: white;
+    }
+  }
+}

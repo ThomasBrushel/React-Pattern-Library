@@ -1,0 +1,16 @@
+.btn {
+  border: none;
+  font-size: 1em;
+  padding: 1em 2.5em;
+  &.btn-main {
+    background: black;
+    color: white;
+  }
+  &.btn-warning {
+    background: tomato;
+    color: white;
+  }
+  &.btn-disabled {
+    background: #ccc;
+  }
+}

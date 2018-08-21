@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+a {
+  text-decoration: none; }
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-direction: column;
+  max-width: 1280px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto; }
+
+.col-4 {
+  flex: 0 0 38.999%; }
+
+.col-8 {
+  flex: 0 0 60%; }
+
+.nav.nav-grey {
+  background: grey; }
+.nav.nav-black {
+  background: black; }
+  .nav.nav-black ul li a {
+    color: white; }
+
+.hero {
+  position: relative; }
+  .hero img {
+    width: 100%;
+    height: 600px;
+    object-fit: cover; }
+  .hero .hero-text {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%); }
+    .hero .hero-text.is-right {
+      right: 20%; }
+    .hero .hero-text.is-center {
+      transform: translateX(-50%);
+      left: 50%; }
+
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s; }
+
+.active, .accordion:hover {
+  background-color: #ccc; }
+
+.panel {
+  padding: 0 18px;
+  display: none;
+  background-color: white;
+  overflow: hidden; }
+
+.accordion-outline {
+  background-color: transparent;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: 1px solid black;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s; }
+
+.btn {
+  border: none;
+  font-size: 1em;
+  padding: 1em 2.5em; }
+  .btn.btn-main {
+    background: black;
+    color: white; }
+  .btn.btn-warning {
+    background: tomato;
+    color: white; }
+  .btn.btn-disabled {
+    background: #ccc; }
+
+/*# sourceMappingURL=App.css.map */
