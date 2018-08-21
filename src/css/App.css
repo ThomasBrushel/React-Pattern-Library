@@ -87,14 +87,22 @@ a {
 .btn {
   border: none;
   font-size: 1em;
-  padding: 1em 2.5em; }
+  padding: 1em 2.5em;
+  transition: .5s;
+  text-transform: uppercase; }
   .btn.btn-main {
     background: black;
     color: white; }
+    .btn.btn-main:hover {
+      background: black; }
   .btn.btn-warning {
     background: tomato;
     color: white; }
+    .btn.btn-warning:hover {
+      background: #ff3814; }
   .btn.btn-disabled {
     background: #ccc; }
+    .btn.btn-disabled:hover {
+      background: #b3b3b3; }
 
 /*# sourceMappingURL=App.css.map */
