@@ -10,6 +10,9 @@ import Accordion from '../layout/Accordion';
         src="https://source.unsplash.com/random"
         altText="My Cool random image"
         heroTextPosition="is-center"
+        textHeadingSize="is-lg"
+        textHeadingColor="white"
+        textLeadColor="white"
         heroTitle="something"
         heroIntro="This is a small tagline of some sort"/>
 
