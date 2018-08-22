@@ -19,7 +19,7 @@ class Accordion extends Component {
     const { 
       panelText, 
       text, 
-      accordionBrand 
+      accordionBrand
     } = this.props;
 
     const hidden = {
@@ -28,10 +28,12 @@ class Accordion extends Component {
 
     return (
       <div>
-        <div className={accordionBrand} onClick={this.toggle.bind(this)}>{ panelText }</div>
-          <div className="panel" style={ hidden }>
-            <p>{ text }</p>
-          </div>
+        <div className={accordionBrand} onClick={this.toggle.bind(this)}>{ panelText }
+          <div className="accordion-toggle">+</div>
+        </div>
+        <div className="panel" style={ hidden }>
+          <p>{ text }</p>
+        </div>
       </div>
     )
   }
