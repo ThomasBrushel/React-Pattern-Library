@@ -12,9 +12,9 @@ const Header = (props) => {
   return (
     <div>
       <nav className={`nav ${navBrand}`}>
-        <div className="container">
-          <div className="col-4 center">
-            <a href="/">{ logo }</a>
+        <div className="container-row">
+          <div className="col-4 align-center-h">
+            <a className="logo" href="/">{ logo }</a>
           </div>
           <div className="col-8 align-end">
             <ul>
