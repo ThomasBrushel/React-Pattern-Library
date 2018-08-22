@@ -28,7 +28,8 @@ class Accordion extends Component {
 
     return (
       <div>
-        <div className={accordionBrand} onClick={this.toggle.bind(this)}>{ panelText }
+        <div className={accordionBrand} onClick={this.toggle.bind(this)}>
+          <p>{ panelText }</p>
           <div className="accordion-toggle">+</div>
         </div>
         <div className="panel" style={ hidden }>
